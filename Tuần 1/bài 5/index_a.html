@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: lightgray; */
+  padding: 10px;
+}
+
+/* header {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+} */
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+nav {
+        width: 33.33%;
+        border-left: 1px solid gray; 
+        /* border-right: 1px solid #bbb */
+         padding-left: 10px; 
+      }
+      
+
+
+    </style>
+</head>
+<body>
+  <h1>Exemple Cafe Menu</h1>
+    <header>
+
+        <div class="wrapper">
+        <nav class="menu">
+    <ul style="display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;">
+      <li><a href="#section1" style="text-decoration: underline; color:blue">Started</a></li>
+      <li><a href="#section2" style="text-decoration: underline;color:blue">Main courses</a></li>
+      <li><a href="#section3" style="text-decoration: underline;color:blue">Desserts</a></li>
+    </ul>
+  </nav>
+ 
+</div>
+
+
+      </header>
+  
+      <main>
+        <section id="section1">
+          <h2>Started</h2>
+          
+          <ul>
+            <li>Chesnut mushroom Gojons(<u>v</u>)</li>
+            <li>Goat Cheese Salad (<u>v</u>)</li>
+            <li>Honey Soy Chicken Kebabs</li>
+            <li>Seafood Salad</li>
+          </ul>
+        
+        </section>
+        <a href="#top" style="text-decoration: underline; color: blue;">Back To Top</a>
+        <section id="section2">
+          <h2>Main courses</h2>
+          <ul>
+            <li>Spinach and Ricotta Roulade</li>
+            <li>Beef Tournados with Mustard and Dill Sauce</li>
+            <li>Roast Chickken Salad</li>
+            <li>Icelandic Cods with parslay Sauce</li>
+            <li>Mushroom wellington(<u>v</u>)</li>
+          </ul>
+        </section>
+        <a href="#top" style="text-decoration: underline; color: blue;">Back To Top</a>
+
+  
+        <section id="section3">
+          <h2>Desserts</h2>
+          <ul>
+            <li>Lemon Sorbet</li>
+            <li>Chocolate Mud pie</li>
+            <li>Pencan Pie</li>
+            <li>Selection of Fine Cheeses from Around the World</li>
+          </ul>
+        </section>
+  
+        <a href="#top" style="text-decoration: underline; color: blue;">Back To Top</a>
+      </main>
+  
+      <footer>
+        <h5>Items marked with a (<u>v</u>)are suitable for vegetarians.</h5> 
+      </footer>
+</body>
+</html>
