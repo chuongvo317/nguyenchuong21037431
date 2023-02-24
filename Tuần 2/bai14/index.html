@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Contact Us</title>
+ <style>
+  form {
+   width: 50%;
+   margin: auto;
+   border: 1px solid black;
+   padding: 20px;
+  }
+
+  input[type=text], textarea {
+   width: 70%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   resize: vertical;
+  }
+
+  label {
+   padding: 12px 12px 12px 0;
+   display: inline-block;
+  }
+
+  
+ 
+
+  .row:after {
+   content: "";
+   display: table;
+   clear: both;
+  }
+
+  .col-25 {
+   float: left;
+   width: 25%;
+   margin-top: 6px;
+  }
+
+  .col-75 {
+   float: left;
+   width: 75%;
+   margin-top: 6px;
+  }
+ </style>
+</head>
+<body>
+ 
+ <form>
+    <h2>Contact Us</h2>
+    <p>Use the following  form to send a message to Examples Cafe</p>
+  <!-- <div class="row">
+   <div class="col-25">
+    <label for="to">To:</label>
+   </div> -->
+   <!-- <div class="col-75">
+    <input type="text" id="to" name="to" >
+   </div> -->
+  </div>
+  <div class="row">
+   <div class="col-25">
+    <label for="email">Your Email:</label>
+   </div>
+   <div class="col-75">
+    <input type="text" id="email" name="email" >
+   </div>
+  </div>
+  <div class="row">
+   <div class="col-25">
+    <label for="message">Message:</label>
+   </div>
+   <div class="col-75">
+    <textarea id="message" name="message"  style="height:200px"></textarea>
+   </div>
+  </div>
+  <div class="row">
+   <div class="col-25">
+    <label for="how-found">How did you hear of us:</label>
+   </div>
+   <div class="col-75">
+    <select id="how-found" name="how-found">
+     <option value="google">Google</option>
+     <option value="facebook">Facebook</option>
+     <option value="twitter">Twitter</option>
+    </select>
+   </div>
+  </div>
+  <div class="row">
+   <div class="col-25">
+    <label for="newsletter">Newsletter:</label>
+   </div>
+   <div class="col-75">
+    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+    <label for="newsletter">Ensure this box checked if you wounld like to receive email updates</label>
+   </div>
+  </div>
+  <div class="submit">
+    <button type="submit">Send Message</button>
+   
+ </form>
+</body>
