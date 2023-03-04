@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .my-table {
+  border-collapse: collapse;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  
+}
+
+.my-table th, .my-table td {
+  border: 1px solid #993738;
+  padding: 10px;
+  text-align: center;
+}
+
+.my-table th:first-child, .my-table td:first-child {
+  text-align: left;
+}
+
+.my-table th:last-child, .my-table td:last-child {
+  text-align: right;
+}
+/* thí */
+/* .my-table .even-row {
+  background-color: #FFE6E6;
+}
+
+.my-table .odd-row {
+  background-color: #FFE0B2;
+} */
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <table class="my-table">
+        <tr style="background-color: #993738; color: aliceblue;">
+          <th style="width: 70%;">Region</th>
+          <th>Percentage</th>
+        </tr>
+        <div>
+        <tr class="even-row, ">
+          <td>New England</td>
+          <td>12%</td>
+        </tr>
+        <div style="background-color: black;">
+        <tr class="odd-row">
+          <td>Mid-Atlantic</td>
+          <td>19%</td>
+        </tr>
+        <tr class="even-row">
+          <td>South and puerto Rico</td>
+          <td>15%</td>
+        </tr>
+        <tr class="odd-row">
+          <td>Midwest and Plains State</td>
+          <td>12%</td>
+        </tr>
+        <tr class="even-row">
+          <td>Southwest and Moutain</td>
+          <td>10%</td>
+        </tr>
+        <tr class="odd-row">
+          <td>West, Alaska, and hawai</td>
+          <td>20%</td>
+        </tr>
+        <tr class="even-row">
+          <td>Abroad</td>
+          <td>13%</td>
+        </tr>
+       </div>
+      </table>
+      
+</body>
+</html>
