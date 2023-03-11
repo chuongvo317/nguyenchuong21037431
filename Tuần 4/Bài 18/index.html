@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style >
+        nav{
+            display: block;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            background-color: green;
+        }
+        li{
+            list-style-type: none;
+            display: inline;
+            margin-right: 20px;
+            font-size:25px;
+        }
+        a:link{
+            color: #fff;
+            text-decoration: none;
+        }
+        a:hover{
+            color: orange;
+            text-decoration: none;
+        }
+        li > ul {
+            display: none;
+        }
+        li:hover ul{
+            display: block;
+            position: absolute;
+            left: 200px;
+            background-color: green;
+            margin:0;
+            display: flex;
+  flex-direction: column;
+
+        }
+        /* li:hover ul li a :link{
+           display: block;
+           margin-left: -30px;
+        } */
+        /* .haha {
+			float: left;
+			overflow: hidden;
+		}
+
+		.haha .dropbtn {
+			font-size: 16px;
+			border: none;
+			outline: none;
+			color: white;
+			padding: 14px 16px;
+			background-color: inherit;
+			font-family: inherit;
+			margin: 0;
+		}
+
+		.haha:hover .dropbtn {
+			background-color: #111;
+		}
+
+		.haha {
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+
+		.haha {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			text-align: left;
+		}
+
+		.haha a:hover {
+			background-color: #f1f1f1;
+		}
+
+		.haha:hover .haha {
+			display: block;
+        } */
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Product</a>
+            <ul class="haha ">
+                <li><a href="#">Engineering</a></li>
+                <li><a href="#">Telecom</a></li>
+                <li><a href="#">Energy</a></li>
+                <li><a href="#">Finance</a></li>
+                <li><a href="#">Consultancy</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
